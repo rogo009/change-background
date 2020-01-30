@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #ccc;
+    border: none;
+    outline: none;
+    color: white;
+    transition: background-color .5s;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* box-shadow: ; */
+}
+
+button:hover {
+    /* background-color: white; */
+    opacity: 90%;
+    color: black;
+}
+
+/* #box {
+    width: 450px;
+    height: 450px;
+    margin: 20px;
+    background: lavender;
+} */
