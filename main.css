@@ -27,6 +27,13 @@ button:hover {
     color: black;
 }
 
+footer {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* #box {
     width: 450px;
     height: 450px;
